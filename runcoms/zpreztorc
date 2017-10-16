@@ -223,5 +223,25 @@ zstyle ':prezto:module:prompt' theme 'agnoster'
 
 zstyle ':prezto:load' pmodule 'environment' 'terminal' 'archive' 'autosuggestions' 'completion' 'directory' 'fasd' 'git' 'history' 'homebrew' 'osx' 'prompt' 'rsync' 'ssh' 'syntax-highlighting' 'utility'
 
+#
+# Git
+#
+
+zstyle ':prezto:module:git:log:context' format 'medium'
+zstyle ':prezto:module:git:info:context:subcontext' format 'string'
+zstyle ':prezto:module:git:info' verbose 'yes'
+
+#
+# Syntax highlighting
+#
+
+zstyle ':prezto:module:syntax-highlighting' highlighters \
+  'main' \
+  'brackets' \
+  'pattern' \
+  'line' \
+  'cursor' \
+  'root'
+
 
 
